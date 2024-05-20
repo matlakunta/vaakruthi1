@@ -30,6 +30,7 @@ public class HelloServlet extends HttpServlet {
 		PrintWriter pw = response.getWriter();
 		String s = request.getParameter("t1");
 		pw.println("<h1>Hello"+s);
+		pw.println("<h1>Hi");
 		pw.close();
 	}
 
